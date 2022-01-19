@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Web site created using create-snowpack-app" />
+  <link rel="stylesheet" type="text/css" href="/index.css" />
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <title>Snowpack App</title>
+</head>
+
+<body>
+  <!-- <img id="img" src="/logo.svg" />
+    <canvas id="canvas"></canvas>
+    <noscript>You need to enable JavaScript to run this app.</noscript> -->
+  <script type="module" src="/dist/index.js"></script>
+  <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+  <div id="myModal" class="modal">
+
+
+    <div class="modal-content">
+
+      <p id="winelose">GAME OVER!</p>
+    </div>
+
+  </div>
+  <div class="grid">
+    <div id="quiz">
+
+      <h1>JavaScript Quiz</h1>
+      <h2 id="welcome">welcome</h2>
+      <div id="timer" class="col-12">
+        <div class="clock-wrapper">
+
+          <h3>Time until loosing <span style="color:red" class="seconds">10</span></h3>
+        </div>
+      </div>
+      <hr style="margin-bottom: 20px">
+
+
+
+
+
+
+    </div>
+    <p id="question"></p>
+
+    <div class="buttons">
+
+    </div>
+
+
+    <hr style="margin-top: 50px">
+    <footer>
+      <p id="progress"></p>
+    </footer>
+  </div>
+
+</body>
+
+</html>
